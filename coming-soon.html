@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coming soon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    #fullscreen-img {
+        /* Center the content */
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        /* Take full size */
+        height: 100vh;
+        width: 100%;
+
+        /* Background image */
+        background: url("images/ales-krivec-gVG5k5u1Cxw-unsplash.jpg") center center / cover no-repeat;
+    }
+
+    #caption {
+        position: fixed;
+        bottom: 10%;
+        text-align: center;
+        
+        /* Font */
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 7em;
+        color: #fff;
+    }
+
+    /* Responsive layout: Tablet */
+    @media screen and (max-width: 768px) {
+        #caption {
+            font-size: 4em;
+        }
+    }
+
+    /* Responsive layout: Mobile */
+    @media screen and (max-width: 425px) {
+        #caption {
+            font-size: 2em;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <div id="fullscreen-img">
+        <p id="caption">COMING SOON</p>
+    </div>
+</body>
+
+</html>
